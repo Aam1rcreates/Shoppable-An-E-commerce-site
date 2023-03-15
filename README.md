@@ -2,7 +2,7 @@
  
 ## Project Description 
 ### An E-commerce site which uses the technologies like:
-    #### Nodejs, MongoDB, Express.js
+     Nodejs, MongoDB, Express.js
 ### It has 3 pages (contact us, home, product) and a login page
 ### The login page is connected to database and feedback is submited to it.
 ### They are also mobile as well as Desktop reponsive.
