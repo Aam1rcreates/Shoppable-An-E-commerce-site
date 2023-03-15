@@ -1,0 +1,39 @@
+<%-include('./layouts/header')%>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="container">
+                <div class="h1 text-center">Contact Us</div><hr>
+                <form  action='/contact' method='POST' class="formValidation" novalidate>
+                    <label class="control-label" for="name">Full name</label>
+                    <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <input class="form-control" id="name"  type='text' name='name' placeholder= "Full Name" required></input>
+                    </div><br>
+                    <label class="control-label" for="email">Email</label>
+                    <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fa fa-envelope-square" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <input class="form-control" id="email"  type='email' name='email' placeholder= "Email" required></input>
+                    </div><br>
+                    <div class="form-group">
+                        <label for="ta">Message</label>
+                        <textarea class="form-control" id="ta" rows="6" name="message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<%-include('./layouts/footer')%>
